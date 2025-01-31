@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0214c550f6.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        "tittle-primary": "#179800"
+
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        .font-sora {
+            font-family: "Sora";
+        }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Products</title>
+</head>
+
+<body class="font-sora">
+    <head></head>
+    <main class="">
+        <!--SERVICES-->
+    <section class="my-24 p-2 lg:p-8">
+<h3 class="font-semibold text-tittle-primary text-left text-2xl lg:text-4xl p-2 lg:p-4">Services</h3>
+    </section>
+    <!--POPULAR PRODUCTS-->
+    <section class="my-24 p-2 lg:p-8 bg-[#EFEBE3]">
+        <h3 class="font-semibold text-2xl lg:text-4xl text-tittle-primary p-2 lg:p-4">Popular Products</h3>
+        <div class="flex flex-col lg:flex-row  gap-2 lg:gap-4 justify-between">
+            <div class="bg-gradient-to-br from-[#53DB3A] to-[#EFEBE3]  rounded-xl ml-0 lg:ml-4">
+                <div class="relative top-16">
+                    <h3 class="font-medium  py-4  px-4 text-2xl lg:text-4xl  text-white">30% Off</h3>
+                    <p class="text-[10px] px-4 lg:text-base font-normal text-white">Discover a world full of treats,
+                        toys and <br> essentials handpicked for you </p>
+                    <button class="btn mt-4 mx-4  bg-white hover:bg-blue-700">Buy Now</button>
+                </div>
+                <div class="relative"><img src="c2-assets/vegetable-offer.png" class="relative left-9" alt="Offer">
+                </div>
+            </div>
+
+            <div class=" grid grid-cols-2 lg:grid-cols-3">
+                <!--CARD-1 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111] p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="bg-[#EFEBE3] my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] rounded-xl"
+                        src="c2-assets/image 43.png">
+                    <div class="text-left my-auto">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base ">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-2 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111] p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="bg-[#EFEBE3] my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] rounded-xl"
+                        src="c2-assets/image 41.png">
+                    <div class="text-left  my-auto ">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-3 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111]  p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="bg-[#EFEBE3] my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] rounded-xl"
+                        src="c2-assets/image 44.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-4 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111] p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] bg-[#EFEBE3] rounded-xl"
+                        src="c2-assets/image 41.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-5 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111] p-2  bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] bg-[#EFEBE3] rounded-xl "
+                        src="c2-assets/image 43.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-6 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111]  p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] bg-[#EFEBE3] rounded-xl"
+                        src="c2-assets/image 41.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-7 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111] p-2  bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="bg-[#EFEBE3] my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] rounded-xl"
+                        src="c2-assets/image 43.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-8 -->
+                <div
+                    class="grid grid-flow-col  gap-2 text-[#111111]  p-2  bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] bg-[#EFEBE3] rounded-xl"
+                        src="c2-assets/image 44.png">
+                    <div class="text-left  my-auto">
+                        <div class="flex gap-3 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="  text-[10px] lg:text-base font-normal">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-[12.5px] lg:text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-[10px] lg:text-base mt-1 lg:mt-2">$39.99</p>
+                    </div>
+                </div>
+                <!--CARD-9 -->
+                <div
+                    class=" hidden lg:visible lg:grid lg:grid-flow-col  gap-2 text-[#111111] p-2 bg-white m-2 box-border border border-solid border-[#1111111A] rounded-xl">
+                    <img alt="Album"
+                        class="bg-[#EFEBE3] my-auto w-[53.75px] lg:w-[70.32px] h-[53.75px] lg:h-[70px] rounded-xl"
+                        src="c2-assets/image 44.png">
+                    <div class="text-left my-auto">
+                        <div class="flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <p class="text-base font-normal ">4.5</p>
+                        </div>
+                        <h3 class="font-medium text-xl">Potato 1 KG</h3>
+                        <p class="font-medium text-base mt-2">$39.99</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section></main>
+    <footer></footer>
+</body>
+
+</html>
