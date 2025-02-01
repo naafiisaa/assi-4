@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/0214c550f6.js" crossorigin="anonymous"></script>
     <script>
@@ -28,37 +33,47 @@
         .font-sora {
             font-family: "Sora";
         }
+
+        .font-poppins {
+            font-family: "poppins"
+        }
     </style>
     <link rel="stylesheet" href="style.css" />
     <title>Products</title>
 </head>
 
-<body class="font-sora">
+<body>
 
-    <head></head>
+    <head class="font-sora"></head>
     <main class="">
         <!--SERVICES-->
-        <section class="my-24 p-2 lg:p-8">
+        <section class="my-24 font-sora p-2 lg:p-8">
             <h3 class="font-semibold text-tittle-primary text-left text-2xl lg:text-4xl p-2 lg:p-4">Services</h3>
             <div class="flex  flex-col lg:flex-row gap-4">
-                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services" class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/service.png">
+                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services"
+                        class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/service.png">
                     <h3 class="font-semibold text-xl lg:text-2xl text-primary">24/7 Services </h3>
-                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Fresh vegetables available 24/7, delivering
+                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Fresh vegetables available
+                        24/7, delivering
                         quality produce anytime. Shop day or night hassle-free!</p>
                 </div>
-                
-                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services" class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/delivery.png">
+
+                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services"
+                        class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/delivery.png">
                     <h3 class="font-semibold text-xl lg:text-2xl text-primary">Fast Delivery </h3>
-                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Fresh products delivered quickly to your doorstep—fast, reliable, and hassle-free service every day!</p>
+                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Fresh products delivered
+                        quickly to your doorstep—fast, reliable, and hassle-free service every day!</p>
                 </div>
-                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services" class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/healthy.png">
-                    <h3 class="font-semibold text-xl lg:text-2xl text-primary">Healthy Products  </h3>
-                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Eat fresh veggies daily for vitamins, minerals, fiber, energy, immunity, digestion, and overall wellness.</p>
-                </div>  
+                <div class="text-center bg-[#EFEBE3] rounded-2xl p-2 lg:p-4"><img alt="Services"
+                        class="mx-auto my-4 p-4 rounded-[100px] bg-white " src="c2-assets/healthy.png">
+                    <h3 class="font-semibold text-xl lg:text-2xl text-primary">Healthy Products </h3>
+                    <p class="font-light text-primary text-base lg:text-xl my-2 lg:my-4">Eat fresh veggies daily for
+                        vitamins, minerals, fiber, energy, immunity, digestion, and overall wellness.</p>
+                </div>
             </div>
         </section>
         <!--POPULAR PRODUCTS-->
-        <section class="my-24 p-2 lg:p-8 bg-[#EFEBE3]">
+        <section class="my-24 font-sora p-2 lg:p-8 bg-[#EFEBE3]">
             <h3 class="font-semibold text-2xl lg:text-4xl text-tittle-primary p-2 lg:p-4">Popular Products</h3>
             <div class="flex flex-col lg:flex-row  gap-2 lg:gap-4 justify-between">
                 <div class="bg-gradient-to-br from-[#53DB3A] to-[#EFEBE3]  rounded-xl ml-0 lg:ml-4">
@@ -254,6 +269,127 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </section>
+        <!--Arrival and Offers-->
+        <section class="my-24 p-2 lg:p-8">
+            <h3 class="font-semibold text-2xl lg:text-4xl text-tittle-primary p-2 lg:p-4">Arrival & Offers</h3>
+            <div class="flex flex-col lg:flex-row gap-2 justify-between  font-poppins">
+                <div class="flex py-2 pl-0 lg:pl-2  bg-[#115414]  justify-around rounded-3xl">
+                    <div class="pt-4 pl-5 ">
+                        <img alt="Dawat-logo" class="lg:my-4 my-2" src="c2-assets/dawat-logo.png">
+                        <button
+                            class="bg-[#63B76D] my-2 lg:my-4 text-[10px] lg:text-sm rounded-lg text-white p-2 lg:p-4">Cook
+                            Exotic Dishes</button>
+                        <h3 class="font-normal text-white my-2 lg:my-4 text-base lg:text-2xl">UP TO <span class="font-bold">20%
+                                OFF</span></h3>
+                    </div>
+                    <div class="pt-4">
+                        <img class="h-full" alt="Dawat" src="c2-assets/dawat-mock-up.png">
+                    </div>
+                </div>
+                <!--India Gate-->
+                <div class="flex bg-[#102861] justify-around rounded-3xl">
+                    <div class="pt-2 pl-5 ">
+                        <img alt="India-gate-logo" class=" my-2 lg:my-4" src="c2-assets/india-gate-logo.png">
+                        <button
+                            class="bg-[#2A4D97] my-2 lg:my-4 text-[10px] lg:text-sm rounded-lg text-white p-2 lg:p-4">Cook
+                            Exotic Dishes</button>
+                        <h3 class="font-normal text-white my-2 lg:my-4 text-base lg:text-2xl">UP TO <span class="font-bold">20%
+                                OFF</span></h3>
+                    </div>
+                    <div class="pt-2">
+                        <img class=" h-full w-32 p-2 " alt="India-Gate" src="c2-assets/india-gate-mock-up.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FAQ Section-->
+        <section class="my-24 font-sora p-2 lg:p-8 bg-[#EFEBE3]">
+            <h2 class="font-semibold text-tittle-primary  text-2xl lg:text-4xl text-center my-8">
+                Clients Question
+            </h2>
+            <p class="font-medium text-center text-primary mb-8">
+                Welcome to the client question section. We're here to help answer any
+                questions you may have about our shop.
+            </p>
+            <div class="flex flex-col lg:flex-row gap-8 pt-2 lg:pt-4 lg:px-4 px-2">
+                <!--faq-->
+                <div class="rounded-2xl"><img src="c2-assets/11.png" alt="accordion" /></div>
+                <!--accordion-->
+                <div class="flex-1">
+                    <div class="collapse collapse-plus bg-white">
+                        <input placeholder="accordion" type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-lg font-semibold text-tittle-primary">
+                            Our Source
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                We source our vegetables from local farmers and trusted suppliers to ensure freshness
+                                and quality.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-white my-4">
+                        <input placeholder="accordian" type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-tittle-primary text-lg font-semibold">
+                            Home Delivery
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                We provide home delivery within select areas. Check our delivery zones at checkout.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-white my-4">
+                        <input placeholder="accordian" type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-lg font-semibold text-tittle-primary">
+                            How can to place an online order
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                Simply browse our website, add items to your cart, and proceed to checkout.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-white my-4">
+                        <input placeholder="accordian" type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-lg font-semibold text-tittle-primary">
+                            Bulk orders for restaurants or events
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                Yes! Contact us for bulk pricing and availability.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-white my-4">
+                        <input placeholder="accordian" type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-lg font-semibold text-tittle-primary">
+                            Return or exchange
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                We ensure top quality, but if you're unsatisfied, contact us within 24 hours for a
+                                replacement.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-white my-4">
+                        <input placeholder="accordian" type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-lg font-semibold text-tittle-primary">
+                            Payment Methods
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-sm">
+                                We accept credit/debit cards, digital wallets, and cash on delivery (in select
+                                locations).
+
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
